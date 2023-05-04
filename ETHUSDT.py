@@ -10,6 +10,7 @@ response = requests.get(url, headers=headers).json()
 # adding an initial price
 start_price = response['rate']
 print(start_price)
+
 # creating list, that include values of dates
 list_of_value = []
 
