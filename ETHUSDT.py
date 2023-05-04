@@ -4,7 +4,7 @@ import requests
 
 # data from the free API service(couple ETH/USDT)
 url = 'https://rest.coinapi.io/v1/exchangerate/ETH/USD'
-headers = {'X-CoinAPI-Key': '15EF9C78-69E5-4458-BF3B-D2972E5FEE56'}
+headers = {'X-CoinAPI-Key': ' need input key from "https://docs.coinapi.io/" '}
 response = requests.get(url, headers=headers).json()
 
 # adding an initial price
